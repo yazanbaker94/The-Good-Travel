@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+html {
+    font-family: 'Righteous', cursive;
+}
+
+header {
+    background-color: rgba(202, 240, 251, 255)
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+#left{
+    float: right;
+    color: white;
+    font-size: 70px;
+    margin-right: 250px;
+}
+
+form {
+    background-color: #5d4b7696;
+    float: left;
+}
+
+#results{
+    float: right;
+    margin-right: 500px;
+    background-color: #5d4b7696;
+    
+   
+
+}

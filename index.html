@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <main>
+            <nav>
+                <ul>
+                    <img src="logo.gif" alt="logo" id='logo'>
+
+                    
+                    <li id='left'>The Good travel</li>
+                </ul>
+            </nav>
+        </main>
+    </header>
+
+    <form id='form'>
+        <label for="place">place name:</label><br>
+        <input type="text" id="place" name="place" ><br>
+        
+        <label for="trip">Trip Place</label><br>
+
+        <select name="trip" id="trip">
+        <option value="HAWAII">HAWAII</option>
+        <option value="LONDON">LONDON</option>
+        <option value="PARIS">PARIS</option>
+        <option value="ITALY">ITALY</option>
+        <option value="SLOVAKIA">SLOVAKIA</option>
+        <option value="MALAYSIA">MALAYSIA</option>
+        </select><br>
+
+
+        <label for="transport">type of transport</label><br>
+
+        <select name="transport" id="transport">
+        <option value="CAR">CAR</option>
+        <option value="CRUISE">CRUISE</option>
+        <option value="FLIGHT">FLIGHT</option>
+        <option value="TRAIN">TRAIN</option>
+   
+    </select><br>
+
+
+        <input type="submit" value="Submit">
+      </form> 
+
+
+      <div id='results'></div>
+      <div id='clearLocal'></div>
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
